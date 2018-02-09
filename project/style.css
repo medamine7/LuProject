@@ -1,0 +1,420 @@
+body{
+	background-color: #f7f6f3 ;
+	margin:0;
+	padding:0;
+	font-family: 'Karla', sans-serif;
+}
+
+.container-fluid
+{
+	margin: 0;
+	padding: 0;
+}
+
+#website_name{
+	background-color: white;
+	color: #2D5592;
+}
+
+.jumbotron{
+	background-color: white;
+	border: solid 1px #ddd;
+}
+
+.insc_button
+{
+	width:300px;
+	background-color: white;
+	border-radius: 4px;
+	color: #2D5592;
+	border: white 1px solid ;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin:10px auto;
+}
+.con_button
+{
+	color: white;
+	width:300px;
+	background-color: transparent;
+	border-radius: 4px;
+	border: white 1px solid ;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin:10px auto;
+}
+
+.con_button:hover{
+	color: white;
+}
+
+.insc_button{
+	color: #2D5592 !important;
+}
+
+li{
+	list-style-type: none;
+
+}
+
+.navbar li{
+	text-align: center;
+}
+
+footer {
+	padding: 10px;
+	background-color: white;
+	width: 100%;
+	float:left;	
+}
+
+hr{
+	border-color: #b2b2bb;
+	width: 70%;
+}
+
+footer li
+{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+
+
+a:hover{
+	text-decoration: none;
+}
+
+.motto{
+	color: #fff;
+	font-size: 20px;
+}
+
+.motto img{
+	width: 200px;
+	margin: 20px auto;
+}
+
+
+.navbar{
+	background-color: white;
+	color: #2D5592;
+	width: 100%;
+	border-radius: 0;
+	height:75px;
+	line-height:75px;
+	border: 0;
+	padding: 0;
+	border-bottom: 2px #337ab7 solid;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 1000;
+}
+
+.navbar li{
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+	padding: 0 20px;
+}
+
+
+#search_bar{
+	width: 300px;
+	display: inline-block;
+}
+
+#navlist{
+	display: inline-block;
+	margin: 0;
+}
+
+.searchbar-container{
+	display: inline-block;
+}
+
+@media(max-width: 1040px){
+	#search_bar{
+		
+		
+	}
+
+	.searchbar-container{
+		background-color: #337ab7;
+		width: 100%;
+		position: absolute;
+		top: 75px;
+		display: block;
+		z-index: 100;
+	}
+}
+
+
+}
+
+.profile p{
+	font-size:16px;
+}
+
+
+.properties_bar li{
+	display: inline-block;
+	padding:0 20px;
+	color: white;
+}
+
+.properties_bar  ul
+{
+	margin: auto;
+}
+
+.properties_bar 
+{
+	background-color: #2D5592;
+	width: 100%;
+	text-align: center;
+	padding:20px 0;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.user_photo_container{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin:  auto;
+	overflow: hidden;
+}
+
+
+.user_photo{
+	width: auto;
+	vertical-align: middle;
+	height: 100%;
+	margin: auto;
+}
+
+
+
+.profile_counter{
+	display: block;
+}
+
+.sidebar li{
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+
+.sidebar ul{
+	padding: 10px;
+}
+
+.sidebar{
+	background-color: white;
+	float: left;
+	width: 200px;
+	height: 100vh;
+	margin-top: 75px;
+	margin-left: -200px;
+	transition-property: margin-left;
+	transition-duration:.5s;
+	position: absolute;
+	z-index: 100;
+	position: fixed;
+}
+
+#close-menu{
+	float: right;
+	margin: 10px;
+	font-size: 25px;
+	color: #ccc;
+	cursor: pointer;
+
+}
+
+#close-menu:hover{
+	color: #337ab7;
+}
+
+
+.navbar-brand{
+	margin-bottom:0;
+	font-size: 35px !important;
+}
+
+
+.navbar-brand a:focus{
+	text-decoration: none;
+}
+
+
+#nom_utilisateur{
+	float: right;
+	display: inline;
+	padding-right: 20px;
+}
+
+.oeuvre_cover{
+	height: 100%;
+	width: auto;
+
+
+}
+
+.histoire{
+	display: inline-block;
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	margin: 10px;
+	box-shadow: 0 0 5px grey;
+	object-fit: contain;
+	transition:all .5s;
+
+}
+
+.menu-icon{
+	position: fixed;
+	top: 120px;
+	left: 0;
+	color: #337ab7;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: rgba(255,255,255,1);
+	opacity: .5;
+	padding: 10px;
+	box-shadow: 0 0 10px #ccc; 
+	transition-property: opacity;
+	transition-duration: .5s;
+}
+
+.menu-icon:hover{
+	opacity: 1;
+}
+
+.histoire:hover{
+	transform: scale(1.2);
+
+}
+
+.oeuvre-container{
+	display: inline-block;
+}
+
+.con_button
+{
+    width:300px;
+    color: white;
+    background-color: #ee4c22;
+    border-radius: 4px; 
+    border: white 1px solid ;
+    padding: 10px;
+    display: block;
+    margin:10px auto;
+    font-weight: normal;
+}
+
+.jumbo_histoire{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+.jumbotron-marge{
+	margin-top: 100px;
+}
+
+
+.profile-marge{
+	margin-top: 75px;
+}
+
+.con_button:focus{
+	color: white;
+}
+
+.placeholder-image{
+	width: 200px;
+	height: auto;
+	display: block;
+	margin: 5px 0;
+}
+
+.mod-btn{
+	position: absolute;
+	right: 10px;
+}
+
+.mod-btn a{
+	display: block;
+	margin: 5px;
+}
+
+.profile_hl{
+	font-weight: bold;
+}
+
+.jumbotron #text {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+#disconnect-arrow{
+	margin: 0 5px;
+	cursor: pointer;
+	color: #ccc;
+}
+
+.userOptions{
+	margin-right: 50px;
+}
+
+.userOptionsList{
+	background-color: white;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	right: 60px;
+	z-index: 100;
+	padding: 5px 0;
+	display: none;
+
+}
+
+.userOptionsList li{
+	display: block;
+	font-size: 14px;
+	text-align: left;
+	line-height: 2em;
+}
+
+.userOptionsList hr{
+	margin: 0;
+	margin-left: 5px;
+	border-color: #ccc
+}
+
+.userOptionsList a{
+	color: black;
+}
+
+a:focus{
+	text-decoration:none;
+}
+
+.userOptionsList li:hover{
+	background-color: #2D5592;
+}
+.userOptionsList li:hover{
+	color: white
+}

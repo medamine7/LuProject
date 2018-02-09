@@ -1,0 +1,159 @@
+body{
+	background-color: #2D5592 ;
+	margin:0;
+	padding:0;
+	font-family: 'Karla', sans-serif;
+
+}
+
+.container-fluid
+{
+	margin: 0;
+	padding: 0;
+}
+
+#website_name{
+	background-color: white;
+	color: #2D5592;
+	width: 100%;
+	margin: 0;
+	padding:10px;
+	margin-bottom: 50px;
+}
+.jumbotron{
+	background-color: white;
+	border: solid 1px #ddd;
+}
+.insc_button
+{
+	width:300px;
+	background-color: white;
+	border-radius: 4px;
+	color: #2D5592;
+	border: white 1px solid ;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin:10px auto;
+}
+.con_button
+{
+	color: white;
+	width:300px;
+	background-color: transparent;
+	border-radius: 4px;
+	border: white 1px solid ;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+	margin:10px auto;
+}
+
+.con_button:hover{
+	color: white;
+}
+
+.insc_button{
+	color: #2D5592 !important;
+}
+
+li{
+	list-style-type: none;
+	text-align: center;
+
+}
+
+footer {
+	padding: 10px;
+	background-color: white;
+	width: 100%;
+	margin-top: 33px;
+	position: relative;
+	bottom: 0;
+	
+}
+
+hr{
+	border-color: #b2b2bb;
+	width: 70%;
+}
+
+footer li
+{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+
+
+a:hover{
+	text-decoration: none;
+}
+
+.motto{
+	color: #fff;
+	font-size: 20px;
+}
+
+.motto img{
+	width: 200px;
+	margin: 20px auto;
+}
+
+
+.navbar{
+	background-color: white;
+	color: #2D5592;
+	width: 100%;
+	margin-bottom:0;
+	border-radius: 0;
+	text-align: center;
+	box-shadow: 0 0 3px black;
+}
+
+.navbar li{
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+	padding-right: 10px;
+	padding-left: 10px;	
+	padding-top: 20px;
+}
+
+#search_bar{
+	width: 300px;
+	margin-left: 50px;
+}
+
+.profile p{
+	font-size:16px;
+}
+
+
+.properties_bar li{
+	display: inline-block;
+	padding:0 20px;
+	color: white;
+}
+
+.properties_bar  ul
+{
+	margin: auto;
+}
+
+.properties_bar 
+{
+	background-color: #2D5592;
+	width: 100%;
+	text-align: center;
+	padding:10px 0;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.user_photo{
+	max-width: 100px;
+	border-radius: 50%;
+	margin:  auto;
+}
+
